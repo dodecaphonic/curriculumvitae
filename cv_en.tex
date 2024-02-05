@@ -1,0 +1,92 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{black}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\firstname{Vitor}
+\familyname{Capela}
+
+
+\address{}{Rio de Janeiro, Brazil}
+\mobile{+55 21 98231 0337}
+\email{vitor@braunecapela.com}
+\homepage{https://github.com/dodecaphonic}
+
+\quote{Over 20 years of professional experience building software in many domains, with different technologies. I enjoy mentoring, nurturing healthy teams and making the work better for everyone.}
+
+\begin{document}
+
+\hyphenation{PostgreSQL}
+\hyphenation{JavaScript}
+\hyphenation{Android}
+
+\maketitle
+
+\section{Education}
+\cventry{2007--2010}{Information Technology Management}{Universidade do Sul de Santa Catarina -- UNISUL}{}{}{}
+
+\section{Experience}
+
+\subsection{Vocational}
+
+\cventry{03/2012--currently}{Founder, Developer, Barista}{Troika Tech}{Rio de Janeiro--RJ}{}{Consulting company with projects in gas and oil, education and energy.}
+
+\cventry{04/2021--currently}{Staff Software Engineer}{Provide}{Remote}{}{Reduced friction by automating the retrieval of public records that support the loan processing pipeline. Introduced better patterns for systems integrations, including more informative error reporting. Created a fully automated, flexible and configurable web scraping solution focused on Practice Broker sites, to keep the Practice Marketplace fresh and up to date. Planned and executed the merger of two large services into one without downtime for either. Led the technical creation of the Lien Tracker system. Mentored junior developers. {\it (Ruby on Rails, React, PostgreSQL, TypeScript, PureScript)}}
+
+\cventry{07/2020--03/2021}{Software Engineering Manager}{iFood}{Remote}{}{Led the back-end team behind Clube iFood, a new product that's successfully increased both retention and frequency for most of iFood's userbase.}
+
+\cventry{05/2019--06/2020}{Senior Software Engineer}{iFood}{Remote}{}{Helped in greatly reducing food and money waste by designing and developing Loop's new expediting system. Wired the necessary payment integrations to turn Loop customers into subscribers, improving Loop's returning customer metrics. Built a new CMS/BFF for Loop, introducing statically-typed functional programming to the team in the process. Wrote tons of documentation where none existed. {\it (Java, Kotlin, MongoDB, Kubernetes, Spring, Grafana, Jenkins, TypeScript, fp-ts, io-ts, Express)}.}
+
+\cventry{04/2018--05/2019}{Lead Software Engineer}{Runs}{Remote}{}{Defined the architecture and technologies used in the project. Developed the geoprocessing pipeline to filter and process runs, resorts, trails and so forth. Developed the visualization layer, including animations, camera movements and the overall design of the Day view. Developed data pumps to periodically update the database with OSM data. {\it (Ruby on Rails, PostgreSQL with PostGIS, Stimulus, CesiumJS, Docker)}}
+
+\cventry{11/2017--12/2018}{Tech Lead}{Drone Park One}{Remote}{}{Led the development of {\it Drone Park One}'s backoffice (billing, scheduling, statistics and profiles) and in-room (game setup, drone--computer communications, drone--user communications) software; implemented metrics for the development team and encouraged structured learning (via tech talks and experiments); developed a survey app using Elm, CouchDB and a Rails backend for reporting. {\it (Ruby on Rails, ActionCable, PostgreSQL, Elm)}}
+
+\cventry{06/2017--11/2017}{Senior Software Engineer}{XL Solutions}{Remote}{}{Developed two major features for {\it Oi Telecomunicações}' e-commerce operations. Helped in shaping up and documenting a set of common gems used to build and deploy stores quickly. Developed the first node.js + TypeScript service in the company. Improved XL's testing practices. Gave tech talks to the team about TDD, TypeScript and Asynchronous Programming in the Browser. Improved the build and deploy system. Refactored critical-path legacy code. {\it (Ruby, Rails, MySQL, Angular 1.x, TypeScript, Express)}}
+
+\cventry{01/2010--05/2017}{Tech Lead}{PRODEC Consultoria para Decisão Ltda.}{Remote (with occasional commutes)}{}{Led the migration of a desktop GIS application to a top-notch, fast and reliable Rails app, training the existing team in both Ruby and Rails and web development itself. Introduced automated testing with RSpec and Capybara. Built tens of tools and services supporting our app, in many platforms (including the JVM and Haskell). Started work on the first Android app the company ever produced. Established a culture of infrastructure automation and devops, using Ansible, Heroku and AWS. Built tools for reviewing and processing drone imagery. {\it (C++, Ruby, Rails, PostGIS, Android, React, Redux)}}
+
+\cventry{12/2016--05/2017}{Software Engineering Consultant}{Almanaque da Rede}{Remote}{}{Updated the app to Rails 5, designing new user interfaces and reimplementing the games. With the new codebase, developed and released iOS and Android apps using Turbolinks, including an exclusive game using the phone's camera. {\it (Ruby, Rails, MySQL, AWS, Turbolinks (+iOS and Android)), JavaScript}}
+
+\cventry{03/2012--05/2013}{Software Engineering Consultant}{Almanaque da Rede}{Remote (with occasional meetings)}{}{Turned a messy, tangled Rails codebase into a solid and thoroughly tested application supporting thousands of children in learning Portuguese, Mathematics and Physics. {\it (Ruby, Rails, MySQL, SolR, JavaScript)}}
+
+\cventry{11/2005--12/2009}{Senior Software Engineer}{PRODEC Consultoria para Decisão Ltda.}{Rio de Janeiro--RJ}{}{Designed and developed an ORM in C++ supporting three database vendors. Worked on a web system for scheduling and managing the conservation of assets in private roads. Designed and implemented a pipeline for processing tens of gigs of aerial imagery for GIS applications, pushing the expected turnaround down from a couple of months to, at most, a week.}
+
+\section{Stuff I Have Built}
+\cvline{Balladina}{A WebSockets+WebRTC multitrack recording web app, with the lofty goal of recording live jam sessions (http://github.com/dodecaphonic/balladina)}
+\cvline{Such Great Heights}{A service focused on providing point and route altitude data using NASA's SRTM datasets (https://github.com/prodec/suchgreatheights)}
+\cvline{uavcoverage}{A library that allows you to know how much ground will be covered by your drone's camera on a given set of settings (https://github.com/prodec/uavcoverage)}
+
+\section{Projects I Have Helped}
+\cvline{rantly}{A property-based testing tool for Ruby (https://github.com/rantly-rb/rantly)}
+\cvline{ruby-refactor}{Basic automated refactoring support for Ruby in Emacs (https://github.com/ajvargo/ruby-refactor)}
+\cvline{nvm.el}{nvm integration for Emacs (https://github.com/rejeep/nvm.el)}
+\cvline{CouchPotato}{A CouchDB ODM for Ruby (https://github.com/langalex/couch\_potato)}
+\cvline{exercism.io}{A collaborative learning tool for programming languages (http://exercism.io/)}
+\cvline{ol-cesium}{A library integrating OpenLayers and CesiumJS (https://github.com/openlayers/ol-cesium)}
+\cvline{Learn to Program - Brazilian Portuguese}{Translated and revised chapters for the Brazilian version of the book, credited as Vitor Peres (https://www.jmonteiro.com/aprendaaprogramar/)}
+
+\section{Talking and Writing}
+
+\cvline{Troika Tech}{A seldom updated, but lovingly kept, technical blog (http://troikatech.com)}
+\cvline{Inviável}{A podcast I co-hosted from 2017 to 2019 about the experience of being a human that also happens to be a software developer (http://inviavelpodcast.com).}
+\cvline{StackOverflow Profile}{https://stackoverflow.com/users/204708/dodecaphonic}
+
+\section{Languages}
+\cvline{English}{Fluent}
+\cvline{Brazilian Portuguese}{Fluent}
+\cvline{Dutch}{Basic}
+
+\section{Technical Experience}
+\subsection{Very Proficient}
+\cvline{languages}{Ruby, TypeScript, Java, Kotlin}
+\cvline{technologies}{Rails, Roda, RSpec, generative, rantly, PostgreSQL, PostGIS, GDAL, GeoServer, git, OS X, Linux, Celluloid, fp-ts, io-ts, Express}
+\subsection{Built Real Stuff, But Not An Expert}
+\cvline{languages}{PureScript, Haskell, Elm, Scala, Go, Emacs Lisp}
+\cvline{technologies}{Redis, nginx, WebWorkers, MySQL, ScalaCheck, QuickCheck, Docker, MongoDB, Kubernetes, React, Redux, Spring}
+
+\section{Relevant Education}
+\cvline{software engineering}{Principles of Reactive Programming, Coursera + EPFL}
+\cvline{software engineering}{Functional Programming Principles in Scala, Coursera + EPFL}
+
+\end{document}
